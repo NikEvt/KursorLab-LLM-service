@@ -1,0 +1,3 @@
+'prefix': "Embed css style into this html file,style: "
+'sufix': "Create an HTML webpage that includes embedded CSS within the <style> tag in the <head> section. Return only html document."
+'api_token' : ""

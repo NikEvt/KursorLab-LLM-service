@@ -1,0 +1,10 @@
+{
+  "prompts": {
+    "classification": "classification: ",
+    "search_query": "search_query: ",
+    "search_document": "search_document: ",
+    "clustering": "clustering: "
+  },
+  "default_prompt_name": null,
+  "similarity_fn_name": null
+}

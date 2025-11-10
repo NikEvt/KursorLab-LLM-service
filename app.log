@@ -1,0 +1,820 @@
+2025-04-14 11:00:08,462 - __main__ - INFO - Starting uvicorn server on 0.0.0.0:8000
+2025-04-14 11:00:43,584 - __main__ - INFO - Received generate_style request with style: Шрифт Comforta, цвет текста темно коричневый,  фон страницы светло бежевый
+2025-04-14 11:00:46,024 - __main__ - INFO - Improved prompt generated successfully
+2025-04-14 11:00:49,833 - __main__ - INFO - HTML code generated successfully
+2025-04-14 11:01:36,427 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Server.serve() done, defined at C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\server.py:67> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\main.py", line 577, in run
+    server.run()
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\nest_asyncio.py", line 30, in run
+    return loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\nest_asyncio.py", line 92, in run_until_complete
+    self._run_once()
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\nest_asyncio.py", line 133, in _run_once
+    handle._run()
+  File "C:\Users\Michael\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Michael\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 360, in __wakeup
+    self.__step()
+  File "C:\Users\Michael\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 277, in __step
+    result = coro.send(None)
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\server.py", line 68, in serve
+    with self.capture_signals():
+  File "C:\Users\Michael\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+2025-04-14 11:01:42,946 - __main__ - INFO - Starting uvicorn server on 0.0.0.0:8000
+2025-04-14 11:01:48,237 - __main__ - INFO - Received generate_style request with style: Шрифт Comforta, цвет текста темно коричневый,  фон страницы светло бежевый
+2025-04-14 11:01:50,089 - __main__ - INFO - Improved prompt generated successfully
+2025-04-14 11:01:53,818 - __main__ - INFO - HTML code generated successfully
+2025-04-14 11:01:53,818 - __main__ - ERROR - Error in generate_style: module 'llm_functions' has no attribute 'extract_html_from_ai_response'
+2025-04-14 11:02:11,511 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Server.serve() done, defined at C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\server.py:67> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\main.py", line 577, in run
+    server.run()
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\nest_asyncio.py", line 30, in run
+    return loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\nest_asyncio.py", line 92, in run_until_complete
+    self._run_once()
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\nest_asyncio.py", line 133, in _run_once
+    handle._run()
+  File "C:\Users\Michael\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Michael\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 360, in __wakeup
+    self.__step()
+  File "C:\Users\Michael\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 277, in __step
+    result = coro.send(None)
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\server.py", line 68, in serve
+    with self.capture_signals():
+  File "C:\Users\Michael\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+2025-04-14 11:02:16,836 - __main__ - INFO - Starting uvicorn server on 0.0.0.0:8000
+2025-04-14 11:02:26,294 - __main__ - INFO - Received generate_style request with style: Шрифт Comforta, цвет текста темно коричневый,  фон страницы светло бежевый
+2025-04-14 11:02:28,163 - __main__ - INFO - Improved prompt generated successfully
+2025-04-14 11:02:32,036 - __main__ - INFO - HTML code generated successfully
+2025-04-14 11:02:32,038 - __main__ - INFO - HTML code extracted successfully
+2025-04-14 11:02:32,038 - __main__ - INFO - Generated HTML code: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Lesson</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        body {
+            font-family: 'Comfortaa', cursive;
+            color: #4e342e; /* Dark brown */
+            background-color: #f5f5dc; /* Light beige */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .lesson-container {
+            width: 80%;
+            max-width: 900px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .section-title {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            color: #795548; /* A slightly lighter brown */
+        }
+
+        .section-title i {
+            margin-right: 8px;
+            color: #795548;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="lesson-container">
+        <h1 id="lesson-title">Заголовок урока</h1>
+
+        <section>
+            <h2 class="section-title"><i class="material-icons">article</i>Параграф 1</h2>
+            <p id="paragraph-1">параграф 1</p>
+        </section>
+
+        <section>
+            <h2 class="section-title"><i class="material-icons">article</i>Параграф 2</h2>
+            <p id="paragraph-2">параграф 2</p>
+        </section>
+
+        <section>
+            <h2 class="section-title"><i class="material-icons">article</i>Параграф 3</h2>
+            <p id="paragraph-3">параграф 3</p>
+        </section>
+    </div>
+
+</body>
+</html>
+2025-04-14 11:03:19,322 - __main__ - INFO - Received generate_content request with content: content='Урок по машинному обучению' html_code='<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>Interactive Lesson</title>\n    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">\n    <style>\n        body {\n            font-family: \'Comfortaa\', cursive;\n            color: #4e342e; /* Dark brown */\n            background-color: #f5f5dc; /* Light beige */\n            margin: 0;\n            padding: 0;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            min-height: 100vh;\n        }\n\n        .lesson-container {\n            width: 80%;\n            max-width: 900px;\n            padding: 20px;\n            box-sizing: border-box;\n        }\n\n        h1 {\n            text-align: center;\n            margin-bottom: 20px;\n        }\n\n        section {\n            margin-bottom: 30px;\n            padding: 15px;\n            border-radius: 8px;\n            background-color: #fff;\n            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n        }\n\n        p {\n            line-height: 1.6;\n        }\n\n        .section-title {\n            display: flex;\n            align-items: center;\n            margin-bottom: 10px;\n            color: #795548; /* A slightly lighter brown */\n        }\n\n        .section-title i {\n            margin-right: 8px;\n            color: #795548;\n        }\n    </style>\n    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">\n</head>\n<body>\n\n    <div class="lesson-container">\n        <h1 id="lesson-title">Заголовок урока</h1>\n\n        <section>\n            <h2 class="section-title"><i class="material-icons">article</i>Параграф 1</h2>\n            <p id="paragraph-1">параграф 1</p>\n        </section>\n\n        <section>\n            <h2 class="section-title"><i class="material-icons">article</i>Параграф 2</h2>\n            <p id="paragraph-2">параграф 2</p>\n        </section>\n\n        <section>\n            <h2 class="section-title"><i class="material-icons">article</i>Параграф 3</h2>\n            <p id="paragraph-3">параграф 3</p>\n        </section>\n    </div>\n\n</body>\n</html>'
+2025-04-14 11:03:19,322 - __main__ - INFO - Content request: Урок по машинному обучению
+2025-04-14 11:03:19,322 - __main__ - INFO - HTML template: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Lesson</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        body {
+            font-family: 'Comfortaa', cursive;
+            color: #4e342e; /* Dark brown */
+            background-color: #f5f5dc; /* Light beige */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .lesson-container {
+            width: 80%;
+            max-width: 900px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .section-title {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            color: #795548; /* A slightly lighter brown */
+        }
+
+        .section-title i {
+            margin-right: 8px;
+            color: #795548;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="lesson-container">
+        <h1 id="lesson-title">Заголовок урока</h1>
+
+        <section>
+            <h2 class="section-title"><i class="material-icons">article</i>Параграф 1</h2>
+            <p id="paragraph-1">параграф 1</p>
+        </section>
+
+        <section>
+            <h2 class="section-title"><i class="material-icons">article</i>Параграф 2</h2>
+            <p id="paragraph-2">параграф 2</p>
+        </section>
+
+        <section>
+            <h2 class="section-title"><i class="material-icons">article</i>Параграф 3</h2>
+            <p id="paragraph-3">параграф 3</p>
+        </section>
+    </div>
+
+</body>
+</html>
+2025-04-14 11:03:25,386 - __main__ - INFO - Lesson plan generated successfully
+2025-04-14 11:03:25,386 - __main__ - ERROR - Error in generate_content: expected string or bytes-like object, got 'dict'
+2025-04-14 11:09:11,943 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Server.serve() done, defined at C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\server.py:67> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\main.py", line 577, in run
+    server.run()
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\nest_asyncio.py", line 30, in run
+    return loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\nest_asyncio.py", line 92, in run_until_complete
+    self._run_once()
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\nest_asyncio.py", line 133, in _run_once
+    handle._run()
+  File "C:\Users\Michael\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Michael\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 360, in __wakeup
+    self.__step()
+  File "C:\Users\Michael\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 277, in __step
+    result = coro.send(None)
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\server.py", line 68, in serve
+    with self.capture_signals():
+  File "C:\Users\Michael\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+2025-04-14 11:09:17,282 - __main__ - INFO - Starting uvicorn server on 0.0.0.0:8000
+2025-04-14 11:09:25,277 - __main__ - INFO - Received generate_content request with content: content='Урок по машинному обучению' html_code='<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>Interactive Lesson</title>\n    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">\n    <style>\n        body {\n            font-family: \'Comfortaa\', cursive;\n            color: #4e342e; /* Dark brown */\n            background-color: #f5f5dc; /* Light beige */\n            margin: 0;\n            padding: 0;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            min-height: 100vh;\n        }\n\n        .lesson-container {\n            width: 80%;\n            max-width: 900px;\n            padding: 20px;\n            box-sizing: border-box;\n        }\n\n        h1 {\n            text-align: center;\n            margin-bottom: 20px;\n        }\n\n        section {\n            margin-bottom: 30px;\n            padding: 15px;\n            border-radius: 8px;\n            background-color: #fff;\n            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n        }\n\n        p {\n            line-height: 1.6;\n        }\n\n        .section-title {\n            display: flex;\n            align-items: center;\n            margin-bottom: 10px;\n            color: #795548; /* A slightly lighter brown */\n        }\n\n        .section-title i {\n            margin-right: 8px;\n            color: #795548;\n        }\n    </style>\n    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">\n</head>\n<body>\n\n    <div class="lesson-container">\n        <h1 id="lesson-title">Заголовок урока</h1>\n\n        <section>\n            <h2 class="section-title"><i class="material-icons">article</i>Параграф 1</h2>\n            <p id="paragraph-1">параграф 1</p>\n        </section>\n\n        <section>\n            <h2 class="section-title"><i class="material-icons">article</i>Параграф 2</h2>\n            <p id="paragraph-2">параграф 2</p>\n        </section>\n\n        <section>\n            <h2 class="section-title"><i class="material-icons">article</i>Параграф 3</h2>\n            <p id="paragraph-3">параграф 3</p>\n        </section>\n    </div>\n\n</body>\n</html>'
+2025-04-14 11:09:25,278 - __main__ - INFO - Content request: Урок по машинному обучению
+2025-04-14 11:09:25,278 - __main__ - INFO - HTML template: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Lesson</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        body {
+            font-family: 'Comfortaa', cursive;
+            color: #4e342e; /* Dark brown */
+            background-color: #f5f5dc; /* Light beige */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .lesson-container {
+            width: 80%;
+            max-width: 900px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .section-title {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            color: #795548; /* A slightly lighter brown */
+        }
+
+        .section-title i {
+            margin-right: 8px;
+            color: #795548;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="lesson-container">
+        <h1 id="lesson-title">Заголовок урока</h1>
+
+        <section>
+            <h2 class="section-title"><i class="material-icons">article</i>Параграф 1</h2>
+            <p id="paragraph-1">параграф 1</p>
+        </section>
+
+        <section>
+            <h2 class="section-title"><i class="material-icons">article</i>Параграф 2</h2>
+            <p id="paragraph-2">параграф 2</p>
+        </section>
+
+        <section>
+            <h2 class="section-title"><i class="material-icons">article</i>Параграф 3</h2>
+            <p id="paragraph-3">параграф 3</p>
+        </section>
+    </div>
+
+</body>
+</html>
+2025-04-14 11:09:34,079 - __main__ - INFO - Lesson plan generated successfully
+2025-04-14 11:09:34,079 - __main__ - INFO - Lesson plan: {'STRUCT': '<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>Interactive Lesson</title>\n    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">\n    <style>\n        body {\n            font-family: \'Comfortaa\', cursive;\n            color: #4e342e; /* Dark brown */\n            background-color: #f5f5dc; /* Light beige */\n            margin: 0;\n            padding: 0;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            min-height: 100vh;\n        }\n\n        .lesson-container {\n            width: 80%;\n            max-width: 900px;\n            padding: 20px;\n            box-sizing: border-box;\n        }\n\n        h1 {\n            text-align: center;\n            margin-bottom: 20px;\n        }\n\n        section {\n            margin-bottom: 30px;\n            padding: 15px;\n            border-radius: 8px;\n            background-color: #fff;\n            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n        }\n\n        p {\n            line-height: 1.6;\n        }\n\n        .section-title {\n            display: flex;\n            align-items: center;\n            margin-bottom: 10px;\n            color: #795548; /* A slightly lighter brown */\n        }\n\n        .section-title i {\n            margin-right: 8px;\n            color: #795548;\n        }\n    </style>\n    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">\n</head>\n<body>\n\n    <div class="lesson-container">\n        <h1 id="lesson-title">Введение в Машинное Обучение</h1>\n\n        <section>\n            <h2 class="section-title"><i class="material-icons">article</i>Что такое Машинное Обучение?</h2>\n            <p id="paragraph-1">\n                Машинное обучение (МО) - это область искусственного интеллекта, которая позволяет компьютерным системам учиться на данных без явного программирования. Вместо того, чтобы жестко кодировать правила, мы предоставляем алгоритмам данные, и они самостоятельно находят закономерности и делают прогнозы.\n                <br><br>\n                Основные типы машинного обучения:\n                <ul>\n                    <li><b>Обучение с учителем (Supervised Learning):</b> Алгоритм обучается на размеченных данных, где для каждого входного значения известен правильный ответ.</li>\n                    <li><b>Обучение без учителя (Unsupervised Learning):</b> Алгоритм обучается на неразмеченных данных и пытается найти скрытые структуры или закономерности.</li>\n                    <li><b>Обучение с подкреплением (Reinforcement Learning):</b> Алгоритм обучается, взаимодействуя с окружающей средой и получая награды или штрафы за свои действия.</li>\n                </ul>\n                Task: Приведите примеры задач, которые можно решить с помощью каждого из перечисленных типов машинного обучения.\n            </p>\n        </section>\n\n        <section>\n            <h2 class="section-title"><i class="material-icons">article</i>Основные Алгоритмы Машинного Обучения</h2>\n            <p id="paragraph-2">\n                Существует множество различных алгоритмов машинного обучения, каждый из которых подходит для решения определенных задач. Вот некоторые из наиболее распространенных:\n                <ul>\n                    <li><b>Линейная регрессия (Linear Regression):</b> Используется для прогнозирования числовых значений на основе линейной зависимости между переменными.</li>\n                    <li><b>Логистическая регрессия (Logistic Regression):</b> Используется для задач классификации, где необходимо отнести объект к одному из двух или более классов.</li>\n                    <li><b>Деревья решений (Decision Trees):</b> Используются для задач классификации и регрессии, строя иерархическую структуру решений на основе признаков данных.</li>\n                    <li><b>Метод опорных векторов (Support Vector Machines, SVM):</b> Используется для задач классификации и регрессии, находя оптимальную гиперплоскость, разделяющую классы.</li>\n                    <li><b>Нейронные сети (Neural Networks):</b> Используются для решения широкого спектра задач, включая классификацию, регрессию, обработку изображений и текста.</li>\n                </ul>\n                Task: Объясните, в каких случаях лучше использовать линейную регрессию, а в каких - логистическую.\n            </p>\n        </section>\n\n        <section>\n            <h2 class="section-title"><i class="material-icons">article</i>Применение Машинного Обучения</h2>\n            <p id="paragraph-3">\n                Машинное обучение находит применение во многих областях, включая:\n                <ul>\n                    <li><b>Медицина:</b> Диагностика заболеваний, разработка лекарств, персонализированная медицина.</li>\n                    <li><b>Финансы:</b> Обнаружение мошеннических операций, прогнозирование рыночных тенденций, оценка кредитных рисков.</li>\n                    <li><b>Транспорт:</b> Автономное вождение, оптимизация маршрутов, управление трафиком.</li>\n                    <li><b>Маркетинг:</b> Персонализация рекламы, рекомендательные системы, анализ потребительского поведения.</li>\n                    <li><b>Производство:</b> Контроль качества, прогнозирование поломок оборудования, оптимизация производственных процессов.</li>\n                </ul>\n                Task: Приведите примеры использования машинного обучения в вашей повседневной жизни.\n            </p>\n        </section>\n    </div>\n\n</body>\n</html>'}
+2025-04-14 11:09:34,080 - __main__ - ERROR - Error in generate_content: expected string or bytes-like object, got 'dict'
+2025-04-14 11:11:42,130 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Server.serve() done, defined at C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\server.py:67> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\main.py", line 577, in run
+    server.run()
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\nest_asyncio.py", line 30, in run
+    return loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\nest_asyncio.py", line 92, in run_until_complete
+    self._run_once()
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\nest_asyncio.py", line 133, in _run_once
+    handle._run()
+  File "C:\Users\Michael\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Michael\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 360, in __wakeup
+    self.__step()
+  File "C:\Users\Michael\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 277, in __step
+    result = coro.send(None)
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\server.py", line 68, in serve
+    with self.capture_signals():
+  File "C:\Users\Michael\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+2025-04-14 11:11:56,119 - __main__ - INFO - Starting uvicorn server on 0.0.0.0:8000
+2025-04-14 11:12:04,010 - __main__ - INFO - Received generate_content request with content: content='Урок по машинному обучению' html_code='<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>Interactive Lesson</title>\n    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">\n    <style>\n        body {\n            font-family: \'Comfortaa\', cursive;\n            color: #4e342e; /* Dark brown */\n            background-color: #f5f5dc; /* Light beige */\n            margin: 0;\n            padding: 0;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            min-height: 100vh;\n        }\n\n        .lesson-container {\n            width: 80%;\n            max-width: 900px;\n            padding: 20px;\n            box-sizing: border-box;\n        }\n\n        h1 {\n            text-align: center;\n            margin-bottom: 20px;\n        }\n\n        section {\n            margin-bottom: 30px;\n            padding: 15px;\n            border-radius: 8px;\n            background-color: #fff;\n            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n        }\n\n        p {\n            line-height: 1.6;\n        }\n\n        .section-title {\n            display: flex;\n            align-items: center;\n            margin-bottom: 10px;\n            color: #795548; /* A slightly lighter brown */\n        }\n\n        .section-title i {\n            margin-right: 8px;\n            color: #795548;\n        }\n    </style>\n    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">\n</head>\n<body>\n\n    <div class="lesson-container">\n        <h1 id="lesson-title">Заголовок урока</h1>\n\n        <section>\n            <h2 class="section-title"><i class="material-icons">article</i>Параграф 1</h2>\n            <p id="paragraph-1">параграф 1</p>\n        </section>\n\n        <section>\n            <h2 class="section-title"><i class="material-icons">article</i>Параграф 2</h2>\n            <p id="paragraph-2">параграф 2</p>\n        </section>\n\n        <section>\n            <h2 class="section-title"><i class="material-icons">article</i>Параграф 3</h2>\n            <p id="paragraph-3">параграф 3</p>\n        </section>\n    </div>\n\n</body>\n</html>'
+2025-04-14 11:12:04,010 - __main__ - INFO - Content request: Урок по машинному обучению
+2025-04-14 11:12:04,010 - __main__ - INFO - HTML template: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Lesson</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        body {
+            font-family: 'Comfortaa', cursive;
+            color: #4e342e; /* Dark brown */
+            background-color: #f5f5dc; /* Light beige */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .lesson-container {
+            width: 80%;
+            max-width: 900px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .section-title {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            color: #795548; /* A slightly lighter brown */
+        }
+
+        .section-title i {
+            margin-right: 8px;
+            color: #795548;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="lesson-container">
+        <h1 id="lesson-title">Заголовок урока</h1>
+
+        <section>
+            <h2 class="section-title"><i class="material-icons">article</i>Параграф 1</h2>
+            <p id="paragraph-1">параграф 1</p>
+        </section>
+
+        <section>
+            <h2 class="section-title"><i class="material-icons">article</i>Параграф 2</h2>
+            <p id="paragraph-2">параграф 2</p>
+        </section>
+
+        <section>
+            <h2 class="section-title"><i class="material-icons">article</i>Параграф 3</h2>
+            <p id="paragraph-3">параграф 3</p>
+        </section>
+    </div>
+
+</body>
+</html>
+2025-04-14 11:12:10,446 - __main__ - ERROR - Error in generate_content: mapping values are not allowed here
+  in "<unicode string>", line 56, column 90:
+     ... включает в себя несколько этапов:
+                                         ^
+2025-04-14 11:15:27,229 - __main__ - INFO - Received generate_content request with content: content='Урок по машинному обучению' html_code='<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>Interactive Lesson</title>\n    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">\n    <style>\n        body {\n            font-family: \'Comfortaa\', cursive;\n            color: #4e342e; /* Dark brown */\n            background-color: #f5f5dc; /* Light beige */\n            margin: 0;\n            padding: 0;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            min-height: 100vh;\n        }\n\n        .lesson-container {\n            width: 80%;\n            max-width: 900px;\n            padding: 20px;\n            box-sizing: border-box;\n        }\n\n        h1 {\n            text-align: center;\n            margin-bottom: 20px;\n        }\n\n        section {\n            margin-bottom: 30px;\n            padding: 15px;\n            border-radius: 8px;\n            background-color: #fff;\n            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n        }\n\n        p {\n            line-height: 1.6;\n        }\n\n        .section-title {\n            display: flex;\n            align-items: center;\n            margin-bottom: 10px;\n            color: #795548; /* A slightly lighter brown */\n        }\n\n        .section-title i {\n            margin-right: 8px;\n            color: #795548;\n        }\n    </style>\n    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">\n</head>\n<body>\n\n    <div class="lesson-container">\n        <h1 id="lesson-title">Заголовок урока</h1>\n\n        <section>\n            <h2 class="section-title"><i class="material-icons">article</i>Параграф 1</h2>\n            <p id="paragraph-1">параграф 1</p>\n        </section>\n\n        <section>\n            <h2 class="section-title"><i class="material-icons">article</i>Параграф 2</h2>\n            <p id="paragraph-2">параграф 2</p>\n        </section>\n\n        <section>\n            <h2 class="section-title"><i class="material-icons">article</i>Параграф 3</h2>\n            <p id="paragraph-3">параграф 3</p>\n        </section>\n    </div>\n\n</body>\n</html>'
+2025-04-14 11:15:27,231 - __main__ - INFO - Content request: Урок по машинному обучению
+2025-04-14 11:15:27,231 - __main__ - INFO - HTML template: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Lesson</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        body {
+            font-family: 'Comfortaa', cursive;
+            color: #4e342e; /* Dark brown */
+            background-color: #f5f5dc; /* Light beige */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .lesson-container {
+            width: 80%;
+            max-width: 900px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .section-title {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            color: #795548; /* A slightly lighter brown */
+        }
+
+        .section-title i {
+            margin-right: 8px;
+            color: #795548;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="lesson-container">
+        <h1 id="lesson-title">Заголовок урока</h1>
+
+        <section>
+            <h2 class="section-title"><i class="material-icons">article</i>Параграф 1</h2>
+            <p id="paragraph-1">параграф 1</p>
+        </section>
+
+        <section>
+            <h2 class="section-title"><i class="material-icons">article</i>Параграф 2</h2>
+            <p id="paragraph-2">параграф 2</p>
+        </section>
+
+        <section>
+            <h2 class="section-title"><i class="material-icons">article</i>Параграф 3</h2>
+            <p id="paragraph-3">параграф 3</p>
+        </section>
+    </div>
+
+</body>
+</html>
+2025-04-14 11:15:32,019 - __main__ - ERROR - Error in generate_content: mapping values are not allowed here
+  in "<unicode string>", line 23, column 75:
+     ... сновных типов машинного обучения:
+                                         ^
+2025-04-14 11:17:50,971 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Server.serve() done, defined at C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\server.py:67> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\main.py", line 577, in run
+    server.run()
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\nest_asyncio.py", line 30, in run
+    return loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\nest_asyncio.py", line 92, in run_until_complete
+    self._run_once()
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\nest_asyncio.py", line 133, in _run_once
+    handle._run()
+  File "C:\Users\Michael\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Michael\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 360, in __wakeup
+    self.__step()
+  File "C:\Users\Michael\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 277, in __step
+    result = coro.send(None)
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\server.py", line 68, in serve
+    with self.capture_signals():
+  File "C:\Users\Michael\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+2025-04-14 11:18:02,425 - __main__ - INFO - Starting uvicorn server on 0.0.0.0:8000
+2025-04-14 11:18:13,189 - __main__ - INFO - Received generate_content request with content: content='Урок по машинному обучению' html_code='<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>Interactive Lesson</title>\n    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">\n    <style>\n        body {\n            font-family: \'Comfortaa\', cursive;\n            color: #4e342e; /* Dark brown */\n            background-color: #f5f5dc; /* Light beige */\n            margin: 0;\n            padding: 0;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            min-height: 100vh;\n        }\n\n        .lesson-container {\n            width: 80%;\n            max-width: 900px;\n            padding: 20px;\n            box-sizing: border-box;\n        }\n\n        h1 {\n            text-align: center;\n            margin-bottom: 20px;\n        }\n\n        section {\n            margin-bottom: 30px;\n            padding: 15px;\n            border-radius: 8px;\n            background-color: #fff;\n            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n        }\n\n        p {\n            line-height: 1.6;\n        }\n\n        .section-title {\n            display: flex;\n            align-items: center;\n            margin-bottom: 10px;\n            color: #795548; /* A slightly lighter brown */\n        }\n\n        .section-title i {\n            margin-right: 8px;\n            color: #795548;\n        }\n    </style>\n    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">\n</head>\n<body>\n\n    <div class="lesson-container">\n        <h1 id="lesson-title">Заголовок урока</h1>\n\n        <section>\n            <h2 class="section-title"><i class="material-icons">article</i>Параграф 1</h2>\n            <p id="paragraph-1">параграф 1</p>\n        </section>\n\n        <section>\n            <h2 class="section-title"><i class="material-icons">article</i>Параграф 2</h2>\n            <p id="paragraph-2">параграф 2</p>\n        </section>\n\n        <section>\n            <h2 class="section-title"><i class="material-icons">article</i>Параграф 3</h2>\n            <p id="paragraph-3">параграф 3</p>\n        </section>\n    </div>\n\n</body>\n</html>'
+2025-04-14 11:18:13,190 - __main__ - INFO - Content request: Урок по машинному обучению
+2025-04-14 11:18:13,190 - __main__ - INFO - HTML template: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Lesson</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        body {
+            font-family: 'Comfortaa', cursive;
+            color: #4e342e; /* Dark brown */
+            background-color: #f5f5dc; /* Light beige */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .lesson-container {
+            width: 80%;
+            max-width: 900px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .section-title {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            color: #795548; /* A slightly lighter brown */
+        }
+
+        .section-title i {
+            margin-right: 8px;
+            color: #795548;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="lesson-container">
+        <h1 id="lesson-title">Заголовок урока</h1>
+
+        <section>
+            <h2 class="section-title"><i class="material-icons">article</i>Параграф 1</h2>
+            <p id="paragraph-1">параграф 1</p>
+        </section>
+
+        <section>
+            <h2 class="section-title"><i class="material-icons">article</i>Параграф 2</h2>
+            <p id="paragraph-2">параграф 2</p>
+        </section>
+
+        <section>
+            <h2 class="section-title"><i class="material-icons">article</i>Параграф 3</h2>
+            <p id="paragraph-3">параграф 3</p>
+        </section>
+    </div>
+
+</body>
+</html>
+2025-04-14 11:18:20,561 - __main__ - INFO - Lesson plan generated successfully
+2025-04-14 11:18:20,562 - __main__ - INFO - Lesson plan: {'body': {'children': [{'div': {'children': [{'h1': {'id': 'lesson-title', 'text': 'Введение в машинное обучение'}}, {'section': {'children': [{'h2': {'text': 'Что такое машинное обучение?'}}, {'p': {'id': 'paragraph-1', 'text': 'Машинное обучение (МО) - это область искусственного интеллекта, которая позволяет компьютерным системам учиться на данных без явного программирования. Вместо того, чтобы писать код, который точно определяет, как решать задачу, мы предоставляем алгоритму МО данные, и он сам находит закономерности и правила. Это позволяет создавать системы, которые могут адаптироваться к новым данным и делать прогнозы или принимать решения.'}}]}}, {'section': {'children': [{'h2': 'Типы машинного обучения'}, {'p': {'id': 'paragraph-2', 'text': 'Существует несколько основных типов машинного обучения: \n\n*   **Обучение с учителем (Supervised Learning):** Алгоритм обучается на размеченных данных, то есть на данных, для которых известны правильные ответы.  Примеры: классификация, регрессия.\n*   **Обучение без учителя (Unsupervised Learning):** Алгоритм обучается на неразмеченных данных и пытается найти скрытые закономерности. Примеры: кластеризация, понижение размерности.\n*   **Обучение с подкреплением (Reinforcement Learning):** Алгоритм обучается, взаимодействуя с окружающей средой и получая вознаграждение или штраф за свои действия. Примеры: обучение игр, управление роботами.'}}]}}, {'section': {'children': [{'h2': 'Основные этапы построения модели машинного обучения'}, {'p': {'id': 'paragraph-3', 'text': 'Процесс построения модели машинного обучения обычно включает следующие этапы:\n\n1.  **Сбор и подготовка данных:** Сбор данных из различных источников, очистка данных от ошибок и пропусков, преобразование данных в формат, пригодный для обучения.\n2.  **Выбор модели:** Выбор подходящего алгоритма машинного обучения в зависимости от типа задачи и характеристик данных.\n3.  **Обучение модели:** Обучение выбранной модели на подготовленных данных.\n4.  **Оценка модели:** Оценка качества обученной модели на тестовых данных.\n5.  **Настройка параметров модели:** Настройка параметров модели для улучшения ее производительности.\n6.  **Развертывание модели:** Развертывание обученной модели для использования в реальных условиях.'}}]}}, {'section': {'children': [{'h2': 'Практическое задание'}, {'p': {'id': 'practical-task', 'text': 'Task:Представьте, что вам нужно построить модель для предсказания стоимости дома на основе его характеристик (площадь, количество комнат, местоположение). Какой тип машинного обучения вы бы использовали? Какие данные вам понадобятся? Какие этапы вы бы выполнили для построения модели?'}}]}}, {'section': {'children': [{'h2': 'Дополнительные ресурсы'}, {'p': {'id': 'resources', 'text': 'Здесь можно добавить ссылки на полезные ресурсы, такие как статьи, книги, онлайн-курсы и т.д.'}}]}}]}}]}}
+2025-04-14 11:18:20,562 - __main__ - ERROR - Error in generate_content: expected string or bytes-like object, got 'dict'
+2025-04-14 11:19:12,425 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Server.serve() done, defined at C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\server.py:67> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\main.py", line 577, in run
+    server.run()
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\nest_asyncio.py", line 30, in run
+    return loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\nest_asyncio.py", line 92, in run_until_complete
+    self._run_once()
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\nest_asyncio.py", line 133, in _run_once
+    handle._run()
+  File "C:\Users\Michael\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Michael\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 360, in __wakeup
+    self.__step()
+  File "C:\Users\Michael\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 277, in __step
+    result = coro.send(None)
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\server.py", line 68, in serve
+    with self.capture_signals():
+  File "C:\Users\Michael\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+2025-04-14 11:19:17,250 - __main__ - INFO - Starting uvicorn server on 0.0.0.0:8000
+2025-04-14 11:19:21,086 - __main__ - INFO - Received generate_content request with content: content='Урок по машинному обучению' html_code='<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>Interactive Lesson</title>\n    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">\n    <style>\n        body {\n            font-family: \'Comfortaa\', cursive;\n            color: #4e342e; /* Dark brown */\n            background-color: #f5f5dc; /* Light beige */\n            margin: 0;\n            padding: 0;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            min-height: 100vh;\n        }\n\n        .lesson-container {\n            width: 80%;\n            max-width: 900px;\n            padding: 20px;\n            box-sizing: border-box;\n        }\n\n        h1 {\n            text-align: center;\n            margin-bottom: 20px;\n        }\n\n        section {\n            margin-bottom: 30px;\n            padding: 15px;\n            border-radius: 8px;\n            background-color: #fff;\n            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n        }\n\n        p {\n            line-height: 1.6;\n        }\n\n        .section-title {\n            display: flex;\n            align-items: center;\n            margin-bottom: 10px;\n            color: #795548; /* A slightly lighter brown */\n        }\n\n        .section-title i {\n            margin-right: 8px;\n            color: #795548;\n        }\n    </style>\n    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">\n</head>\n<body>\n\n    <div class="lesson-container">\n        <h1 id="lesson-title">Заголовок урока</h1>\n\n        <section>\n            <h2 class="section-title"><i class="material-icons">article</i>Параграф 1</h2>\n            <p id="paragraph-1">параграф 1</p>\n        </section>\n\n        <section>\n            <h2 class="section-title"><i class="material-icons">article</i>Параграф 2</h2>\n            <p id="paragraph-2">параграф 2</p>\n        </section>\n\n        <section>\n            <h2 class="section-title"><i class="material-icons">article</i>Параграф 3</h2>\n            <p id="paragraph-3">параграф 3</p>\n        </section>\n    </div>\n\n</body>\n</html>'
+2025-04-14 11:19:21,086 - __main__ - INFO - Content request: Урок по машинному обучению
+2025-04-14 11:19:21,086 - __main__ - INFO - HTML template: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Lesson</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        body {
+            font-family: 'Comfortaa', cursive;
+            color: #4e342e; /* Dark brown */
+            background-color: #f5f5dc; /* Light beige */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .lesson-container {
+            width: 80%;
+            max-width: 900px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .section-title {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            color: #795548; /* A slightly lighter brown */
+        }
+
+        .section-title i {
+            margin-right: 8px;
+            color: #795548;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="lesson-container">
+        <h1 id="lesson-title">Заголовок урока</h1>
+
+        <section>
+            <h2 class="section-title"><i class="material-icons">article</i>Параграф 1</h2>
+            <p id="paragraph-1">параграф 1</p>
+        </section>
+
+        <section>
+            <h2 class="section-title"><i class="material-icons">article</i>Параграф 2</h2>
+            <p id="paragraph-2">параграф 2</p>
+        </section>
+
+        <section>
+            <h2 class="section-title"><i class="material-icons">article</i>Параграф 3</h2>
+            <p id="paragraph-3">параграф 3</p>
+        </section>
+    </div>
+
+</body>
+</html>
+2025-04-14 11:19:27,740 - __main__ - INFO - Lesson plan generated successfully
+2025-04-14 11:19:27,740 - __main__ - INFO - Lesson plan: {'body': {'children': [{'div': {'children': [{'h1': {'id': 'lesson-title', 'text': 'Введение в машинное обучение'}}, {'section': {'children': [{'h2': {'text': 'Что такое машинное обучение?'}}, {'p': {'id': 'paragraph-1', 'text': 'Машинное обучение (МО) - это область искусственного интеллекта, которая позволяет компьютерным системам учиться на данных без явного программирования. Вместо того, чтобы программировать компьютер для выполнения конкретной задачи, мы предоставляем ему данные, и он сам находит закономерности и правила, позволяющие ему решать эту задачу.  МО используется во многих областях, включая распознавание изображений, обработку естественного языка, рекомендательные системы и многое другое.'}}, {'ul': {'children': [{'li': {'text': 'Task: Приведите 3 примера использования машинного обучения в реальной жизни.'}}, {'li': {'text': 'Task: Объясните разницу между машинным обучением и традиционным программированием.'}}]}}]}}, {'section': {'children': [{'h2': {'text': 'Типы машинного обучения'}}, {'p': {'id': 'paragraph-2', 'text': 'Существует несколько основных типов машинного обучения: обучение с учителем (supervised learning), обучение без учителя (unsupervised learning), обучение с подкреплением (reinforcement learning) и полу-обучение (semi-supervised learning).  Обучение с учителем использует размеченные данные для обучения модели, в то время как обучение без учителя работает с неразмеченными данными, чтобы найти скрытые структуры. Обучение с подкреплением обучает агента принимать решения в среде для максимизации награды. Полу-обучение использует как размеченные, так и неразмеченные данные.'}}, {'ol': {'children': [{'li': {'text': 'Task: Опишите разницу между обучением с учителем и обучением без учителя.'}}, {'li': {'text': 'Task: Приведите пример задачи, которая лучше всего решается с помощью обучения с подкреплением.'}}]}}]}}, {'section': {'children': [{'h2': {'text': 'Основные этапы построения модели машинного обучения'}}, {'p': {'id': 'paragraph-3', 'text': 'Процесс построения модели машинного обучения обычно включает несколько этапов: сбор и подготовка данных, выбор модели, обучение модели, оценка модели и настройка параметров.  Подготовка данных включает очистку данных, обработку пропущенных значений и преобразование данных в формат, подходящий для модели.  Выбор модели зависит от типа задачи и характеристик данных.  Обучение модели включает в себя использование данных для настройки параметров модели.  Оценка модели позволяет оценить качество модели на новых данных. Настройка параметров позволяет улучшить производительность модели.'}}, {'div': {'children': [{'p': {'text': 'Task: Опишите важность этапа подготовки данных в процессе машинного обучения.'}}, {'p': {'text': 'Task: Почему необходимо оценивать модель машинного обучения на новых данных?'}}]}}]}}]}}]}}
+2025-04-14 11:19:27,741 - __main__ - ERROR - Error in generate_content: improve_html() missing 1 required positional argument: 'html_template'
+2025-04-14 11:20:00,444 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Server.serve() done, defined at C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\server.py:67> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\main.py", line 577, in run
+    server.run()
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\nest_asyncio.py", line 30, in run
+    return loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\nest_asyncio.py", line 92, in run_until_complete
+    self._run_once()
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\nest_asyncio.py", line 133, in _run_once
+    handle._run()
+  File "C:\Users\Michael\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Michael\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 360, in __wakeup
+    self.__step()
+  File "C:\Users\Michael\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 277, in __step
+    result = coro.send(None)
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\server.py", line 68, in serve
+    with self.capture_signals():
+  File "C:\Users\Michael\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "C:\Users\Michael\Documents\projects\kursor_nn\.venv\Lib\site-packages\uvicorn\server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+2025-04-14 11:20:04,564 - __main__ - INFO - Starting uvicorn server on 0.0.0.0:8000

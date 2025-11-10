@@ -1,0 +1,3 @@
+'prefix': "Please write a comprehensive reply discussing "
+'sufix': "Make sure to use provided search results. The results you provide would be used to create a useful educational material. Write your response as a single page html document. Answer will be parsed as html automatically, make sure to provide valid code."
+'api_token' : ""

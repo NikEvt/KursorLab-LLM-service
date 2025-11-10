@@ -1,0 +1,30 @@
+
+
+services:
+  chroma:
+    image: chromadb/chroma
+    ports:
+      - "8010:8000"
+    volumes:
+      - './data/embeddings:/index_data'
+  emmbeding:
+    image: ghcr.io/huggingface/text-embeddings-inference:cpu-1.6
+    ports:
+      - "8080:80"
+    volumes:
+      - './data/models:/data'
+    environment:
+      - MODEL_ID=ai-forever/ru-en-RoSBERTa
+  api:  # New API service
+    build:
+      context: ./api  # Assuming Dockerfile is in the api directory
+    ports:
+      - "8000:8000"  # Exposing port 8000
+    volumes:
+      - ./api:/app  # Mounting the api directory
+    
+    env_file:
+      - ./api/.env.example  # Loading environment variables from .env.example
+    depends_on:
+      - chroma
+      - emmbeding
